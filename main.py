@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from cloudtrail_processor import process_cloudtrail_csv
+from service.cloudtrial_processing import process_cloudtrail_csv
 
 app = FastAPI(title="CloudTrail Log Processing API")
 
